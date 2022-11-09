@@ -1,9 +1,9 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['I love you - My', 'Forver Love My', 'Made with Love.'], 'text',['white','pink','lightblue']);
+consoleText(['I love you - Hương Mai', 'Forver Love Hương Mai', 'Made with Love.'], 'text',['white','pink','lightblue']);
 
 setTimeout(function(){
     do{
-        if(confirm("Bạn có yêu MY không")==true){
+        if(confirm("Bạn có yêu Hương Mai không")==true){
             window.location.href = "./heart/index.html";
             break;
         }
